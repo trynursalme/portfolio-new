@@ -1,0 +1,124 @@
+{
+  "user": {
+    "name": "Nurselam Hussen",
+    "headline": "IT Professional and Data Engineer",
+    "subHeadline": "IT professional and Data Engineer building predictive monitoring systems and digital tools",
+    "about": "I am an Electrical & Computer Engineer with a strong foundation in machine learning, data science, and digital monitoring systems—driven by a commitment to expand access to essential services in resource-constrained environments. Currently serving as an IT Assistant at ZOA Ethiopia, I support programmes that enhance clean water access and renewable energy adoption, integrating digital tools that strengthen decision-making in the field.\r\n\r\nAs a graduate of the UNDP Frontier Tech Leaders Programme, I developed predictive models to identify communities most vulnerable to water scarcity, demonstrating the role of data intelligence in improving service reliability and resilience. I am passionate about bridging engineering, data, and humanitarian action to deliver practical solutions that create measurable impact. I am continuously seeking opportunities—such as the Young Expert Programme—to scale this impact further and contribute to sustainable development through innovation, collaboration, and evidence-based systems.",
+    "avatarUrl": "/placeholder-avatar.jpg",
+    "email": "nuruhh2011@gmail.com",
+    "phone": "+251 92919614",
+    "location": "Addis Ababa, Ethiopia",
+    "socials": {
+      "github": "https://github.com/trynursalme",
+      "linkedin": "https://www.linkedin.com/in/nurselam-adem-05a8b71b4/",
+      "twitter": "https://twitter.com"
+    }
+  },
+  "projects": [
+    {
+      "id": "533f9241-9979-4246-88f1-ad2775eb9526",
+      "title": "Apple",
+      "description": "Apple website rebulid",
+      "githubUrl": "https://github.com/trynursalme/Apple",
+      "repoName": "trynursalme/Apple",
+      "repoData": {
+        "stars": 0,
+        "language": "HTML",
+        "updatedAt": "2024-02-07T13:21:55Z",
+        "description": "Apple website rebulid",
+        "homepage": ""
+      },
+      "content": "",
+      "order": 0,
+      "tags": []
+    },
+    {
+      "id": "8733b89b-e23f-402a-a498-6a814e0b32c1",
+      "title": "KAIM-Week0",
+      "description": "",
+      "githubUrl": "https://github.com/trynursalme/KAIM-Week0",
+      "repoName": "trynursalme/KAIM-Week0",
+      "repoData": {
+        "stars": 0,
+        "language": "Jupyter Notebook",
+        "updatedAt": "2025-02-17T09:02:06Z",
+        "description": "",
+        "homepage": ""
+      },
+      "content": "# Solar Radiation Data Analysis Project\n\n### Overview\n#### The goal of this project is to analyze solar radiation measurement data from Benin, Sierra Leone, and Togo to identify high-potential regions for solar installations. The analysis includes exploratory data analysis (EDA), statistical thinking, visualization, and dashboard development using Streamlit.\n\n## Business Objective\n#### The objective of this project is to support MoonLight Energy Solutions in developing a strategic approach to enhance operational efficiency and sustainability through targeted solar investments. As an Analytics Engineer, the task is to:\n\n#### Perform exploratory data analysis (EDA) on environmental measurement data.\n#### Translate insights into actionable recommendations for identifying high-potential regions for solar installations.\n#### Build a Streamlit dashboard to visualize key findings and trends.\n***\n## Dataset Overview\n#### The dataset used in this project is extracted and aggregated from Solar Radiation Measurement Data . Each row contains the following variables:\n\n#### * Timestamp : Date and time of each observation.\n#### * GHI (W/m²) : Global Horizontal Irradiance.\n#### * DNI (W/m²) : Direct Normal Irradiance.\n#### * DHI (W/m²) : Diffuse Horizontal Irradiance.\n#### * ModA & ModB (W/m²) : Sensor measurements.\n#### * Tamb (°C) : Ambient Temperature.\n#### * RH(%) : Relative Humidity.\n#### * WS (m/s) : Wind Speed.\n#### * WSgust (m/s) : Maximum Wind Gust Speed.\n#### * WD (°N to east) : Wind Direction.\n#### * BP (hPa) : Barometric Pressure.\n#### * Cleaning (1 or 0) : Indicates whether cleaning events occurred.\n#### * Precipitation (mm/min) : Precipitation rate.\n#### * TModA & TModB (°C) : Module temperatures.\n#### * Country : Region (Benin, Sierra Leone, Togo).\n\n\n## Dashboard Development\n#### * Design and developed a Streamlit dashboard to visualize key insight.\n#### * Integrated interactive features such as sliders, dropdowns, and buttons.\n#### * Deployed the dashboard to streamlit Community Cloud.\n\n*** \n\n## Key Features of the dashboard.\n#### The streamlit dashboard includes the following interactive visualizations: \n\n#### * ***Line Charts :*** Time Series analysis of GHI, DNI, DHI, and Tamb.\n#### * ***Histogram :*** Frequency distributions of key variables.\n#### * ***Polar plots :*** Wind speed and direction distribution.\n#### * ***Scatter Plots :*** Relationships between variables like GHI vs. Tamb\n#### * ***Outlier Detection :*** Highlighting anomalies using Z-scores.\n\n***\n\n# How to Run the Project\n## Prerequisites\n#### * Python 3.x installed\n#### * Required Libraries installed via requirements.txt\n\n## Steps\n\n#### Clone the repository\ngit clone https://github.com/trynursalme/KAIM-Week0.git\ncd KAIM-Weeko\n#### Install dependencies\npip install -r requirements.txt\n#### Run the Streamlit app \nstreamlit run app/main.py\n\n## Future Improvements\n#### * Incorporate machine learning models to predict solar irradiance.\n#### * Add more advanced statistical analyses (e.g., hypothesis testing).\n#### * Enhance the dashboard with additional interactivity and visualizations.\n\n## Acknowledgments\n#### Special thanks to the entire 10 Academy team for their guidance and support throughout this challenge.\n\n## Contributing\n#### If you’d like to contribute to this project, feel free to fork the repository and submit pull requests. \n#### For major changes, please open an issue first to discuss what you’d like to add or modify.",
+      "order": 1,
+      "tags": []
+    }
+  ],
+  "skills": [
+    {
+      "id": "1",
+      "title": "Data Engineering",
+      "skills": [
+        "Data cleaning",
+        "Big data techniques",
+        "Dbt transformation",
+        "Data Version Control (DVC)",
+        "Tech stack building",
+        "Tech stack change automation",
+        "Complex Data Understanding",
+        "Data Warehousing"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Programming",
+      "skills": [
+        "Advanced Python",
+        "Advanced SQL",
+        "MySQL",
+        "Postgres"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Deployment & MLOps",
+      "skills": [
+        "Docker",
+        "Github",
+        "CI/CD",
+        "Unit Testing",
+        "Model Deployment and Tracking",
+        "Dashboard Building",
+        "Web App Building and Deployment",
+        "MLOps with DVC and MLFlow"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Machine Learning",
+      "skills": [
+        "Exploratory Data Analysis",
+        "Statistical Modeling",
+        "Predictive Modeling",
+        "Time Series Analysis",
+        "Machine Learning Modeling",
+        "Deep learning techniques"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Career Skills",
+      "skills": [
+        "Reporting",
+        "Blog writing",
+        "Report for clients",
+        "Slide preparation and presentation",
+        "Teamwork",
+        "Career development",
+        "Enterprise work culture",
+        "How to ask questions",
+        "Design thinking"
+      ]
+    }
+  ],
+  "settings": {
+    "theme": "system",
+    "password": "admin123"
+  }
+}

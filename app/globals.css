@@ -1,0 +1,117 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+:root {
+  /* HULU BLUE THEME */
+  --background: #0b0c15;
+  /* Extremely dark blue/black */
+  --foreground: #e6e6e6;
+  /* Off-white */
+
+  --card: #151725;
+  /* Slightly lighter dark blue */
+  --card-foreground: #e6e6e6;
+
+  --popover: #151725;
+  --popover-foreground: #e6e6e6;
+
+  --primary: #00ed82;
+  /* Hulu/Neon Green/Blue - Vibrant accent */
+  --primary-foreground: #000000;
+
+  --secondary: #272c3d;
+  /* Slate blue gray */
+  --secondary-foreground: #ffffff;
+
+  --muted: #1f2330;
+  --muted-foreground: #94a3b8;
+
+  --accent: #00ed82;
+  --accent-foreground: #000000;
+
+  --destructive: #ff4545;
+  --destructive-foreground: #ffffff;
+
+  --border: #2e3445;
+  --input: #272c3d;
+  --ring: #00ed82;
+}
+
+.dark {
+  /* Ensure dark mode matches root in this specific design since it's "Dark Mode First" */
+  --background: #0b0c15;
+  --foreground: #e6e6e6;
+
+  --card: #151725;
+  --card-foreground: #e6e6e6;
+
+  --popover: #151725;
+  --popover-foreground: #e6e6e6;
+
+  --primary: #00ed82;
+  --primary-foreground: #000000;
+
+  --secondary: #272c3d;
+  --secondary-foreground: #ffffff;
+
+  --muted: #1f2330;
+  --muted-foreground: #94a3b8;
+
+  --accent: #272c3d;
+  --accent-foreground: #ffffff;
+
+  --destructive: #ff4545;
+  --destructive-foreground: #000000;
+
+  --border: #2e3445;
+  --input: #272c3d;
+  --ring: #00ed82;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+}
+
+body {
+  background-color: var(--background);
+  background-image: radial-gradient(circle at 50% 0%, rgba(0, 237, 130, 0.15) 0%, rgba(11, 12, 21, 1) 60%);
+  background-attachment: fixed;
+  color: var(--foreground);
+  font-family: var(--font-sans), sans-serif;
+  antialiased: true;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
